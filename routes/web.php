@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get('/index', function () {
+Route::get('/', function () {
     return view('index');
 });
 
@@ -20,10 +20,6 @@ Route::get('/main', function () {
     return view('main');
 });
 
-
 Route::get('/welcome', function () {
     return view('welcome');
 });
-
-
-
